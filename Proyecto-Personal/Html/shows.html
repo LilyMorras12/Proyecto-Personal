@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis Shows</title>
+    <link rel="stylesheet" href="../Css/style.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="app-container">
+        <main class="my-shows-view" id="myShowsView"> 
+            <header class="my-shows-header">
+                <div class="my-shows-top-bar">
+                    <a href="Index.html" class="back-button" aria-label="Volver">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    
+                    <div class="search-bar-container">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="search-input" placeholder="Buscar en mis shows..." />
+                    </div>
+                    <button class="selection-mode-button" aria-label="Modo Selección">
+                        <i class="fas fa-sliders-h"></i>
+                    </button>
+                </div>
+                <div class="my-shows-tabs">
+                    <button class="tab-button active" data-tab-target="#my-shows-tv-content">
+                        <i class="fas fa-tv"></i> Series de TV
+                    </button>
+                    <a href="Index.html" class="tab-button" data-tab-target="#my-shows-movies-content" style="text-decoration: none;">
+                        <i class="fas fa-film"></i> Películas
+                    </a>
+                </div>
+            </header>
+
+            <section class="my-shows-content-area">
+                <div class="my-shows-sub-header">
+                    <span class="shows-count"></span> 
+                    <button class="selection-mode-button">
+                        <i class="fas fa-sliders-h"></i> Modo Selección
+                    </button>
+                </div>
+
+                <div class="my-shows-tab-content active" id="my-shows-tv-content">
+                    <div class="my-shows-grid">
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Stranger Things.jpg" alt="Stranger Things" class="my-show-image" />
+                                <div class="my-show-top-icons"><i class="fas fa-eye overlay-icon"></i></div>
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Stranger Things</h3>
+                                <p class="my-show-year-text">2016</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/The Witcher.jpg" alt="The Witcher" class="my-show-image" />
+                                <div class="my-show-top-icons"><i class="fas fa-star overlay-icon"></i></div>
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">The Witcher</h3>
+                                <p class="my-show-year-text">2019</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Bridgerton.jpg" alt="Bridgerton" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Bridgerton</h3>
+                                <p class="my-show-year-text">2020</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/La Casa de Papel.jpg" alt="La Casa de Papel" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">La Casa de Papel</h3>
+                                <p class="my-show-year-text">2017</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/You.jpg" alt="You" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">You</h3>
+                                <p class="my-show-year-text">2018</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Dark.jpg" alt="Dark" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Dark</h3>
+                                <p class="my-show-year-text">2017</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/The Crown.jpg" alt="The Crown" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">The Crown</h3>
+                                <p class="my-show-year-text">2016</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Sex Education.jpg" alt="Sex Education" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Sex Education</h3>
+                                <p class="my-show-year-text">2019</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Narcos.jpg" alt="Narcos" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Narcos</h3>
+                                <p class="my-show-year-text">2015</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Black Mirror.jpg" alt="Black Mirror" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Black Mirror</h3>
+                                <p class="my-show-year-text">2011</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-shows-tab-content" id="my-shows-movies-content" style="display: none;">
+                    <div class="my-shows-grid">
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/La viuda negra.jpg" alt="La viuda negra" class="my-show-image" />
+                                <div class="my-show-top-icons"><i class="fas fa-eye overlay-icon"></i></div>
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">La viuda negra</h3>
+                                <p class="my-show-year-text">2021</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/El gato con botas.jpg" alt="Gato con Botas: El último deseo" class="my-show-image" />
+                                <div class="my-show-top-icons"><i class="fas fa-star overlay-icon"></i></div>
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Gato con Botas: El último deseo</h3>
+                                <p class="my-show-year-text">2022</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Corazón Delator.jpg" alt="Corazón Delator" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Corazón Delator</h3>
+                                <p class="my-show-year-text">2023</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Aquaman y el reino perdido.jpg" alt="Aquaman y el reino perdido" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Aquaman y el reino perdido</h3>
+                                <p class="my-show-year-text">2023</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/Campamento en familia.jpg" alt="Campamento en familia" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">Campamento en familia</h3>
+                                <p class="my-show-year-text">2023</p>
+                            </div>
+                        </div>
+                        <div class="my-show-card">
+                            <div class="my-show-image-container">
+                                <img src="../img/La sombra del gato.jpg" alt="La sombra del gato" class="my-show-image" />
+                            </div>
+                            <div class="my-show-info">
+                                <h3 class="my-show-title-text">La sombra del gato</h3>
+                                <p class="my-show-year-text">2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../javaScript/app.js"></script>
+</body>
+</html>
+
